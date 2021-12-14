@@ -1,0 +1,43 @@
+/*Grilla */
+
+.gridIndex {
+	display: grid;
+	grid-template-areas:
+		"menu" 
+		"contenido" 
+		"contacto" 
+		"pie";
+	grid-template-columns: 100%;
+	grid-template-rows: 100px 1fr 2fr 2fr auto 50px;
+	grid-row-gap: 1px;
+}
+
+.breadcrumb {
+	grid-area: menu;
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px 10px;
+	justify-content: center;
+	border: 10px;
+	position: sticky;
+	top: 100px;
+	left: 100px;
+}
+
+main {
+	grid-area: contenido;
+	margin-top: 10px;
+}
+
+.formularioDeConsulta {
+	grid-area: contacto;
+	background-color: whitesmoke;
+	color: black;
+	background-position: right;
+
+	.formularioDeConsulta__p {
+		color: white
+	}
+}
+
+

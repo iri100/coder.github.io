@@ -1,0 +1,64 @@
+/* clases */
+
+.especial {
+    background-color: black;
+    background-image: linear-gradient(to left, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    font-weight:normal;
+    font-size:400%;
+
+
+}
+
+.display-4 {
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    font-weight:normal;
+    font-size: 200%;
+
+
+}
+
+.display-5 {
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    font-weight:normal;
+    font-size: 150%;
+
+
+}
+
+.infoDelLugar {
+    background-color: whitesmoke;
+    color: black;
+    background-position: center;
+    background-size 100%;
+
+    infoDelLugar__tragos {
+        color: darkgray
+    }
+
+    infoDelLugar__h2 {
+        color: darkgray
+    }
+}
+
+
+.menuDeNavegacion {
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content: center;
+
+    menuDeNavegacion__sub {
+        color: darkgray;
+    }
+}
+
+
+
+
